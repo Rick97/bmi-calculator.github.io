@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+label, input {
+    display:inline-block;
+}
+input{
+    background-color: rgb(191, 239, 255);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 2px solid #333;
+    border-radius: 0.25rem;
+}
+button[type="submit"] {
+    background-color: hsl(213, 73%, 50%);
+    color: white;
+  }
+
+label {
+    margin-bottom: 20px;
+}
+
+#title{
+    color:rgb(6, 6, 77);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    padding: 50px;
+}
+
+#divForm{
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    border-radius: 1rem;
+    box-shadow: 5px 10px rgb(7, 22, 88);
+}
